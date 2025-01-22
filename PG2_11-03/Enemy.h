@@ -1,12 +1,12 @@
 #pragma once
 
 class Enemy {
-public:
+protected:
     int posX_;
     int posY_;
     int speed_;
     int radius_;
-
+public:
     Enemy();
     virtual ~Enemy();
 
