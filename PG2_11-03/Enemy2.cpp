@@ -12,7 +12,7 @@ Enemy2::~Enemy2()
 void Enemy2::Update()
 {
     posX_ += speed_;
-    if (posX_ > 720 || posX_ < 0) {
+    if (posX_ > 1280 || posX_ < 0) {
         speed_ *= -1;
     }
 }
